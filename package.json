@@ -1,0 +1,29 @@
+{
+  "peerDependencies": {
+    "firebase": "*",
+    "rx": "*"
+  },
+  "name": "firebase-rx",
+  "description": "Firebase with an observe() method",
+  "version": "0.0.0",
+  "main": "main.js",
+  "scripts": {
+    "prepublish": "babel main.jsx > main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chcokr/firebase-rx.git"
+  },
+  "keywords": [
+    "firebase",
+    "rx",
+    "observable"
+  ],
+  "author": "YJ Yang <chcokr@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chcokr/firebase-rx/issues"
+  },
+  "homepage": "https://github.com/chcokr/firebase-rx#readme"
+}
